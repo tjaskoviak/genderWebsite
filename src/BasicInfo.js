@@ -5,7 +5,8 @@ class BasicInfo extends Component {
   render() {
     return (
       <div>
-      Test
+      	<h1>Welcome to this webpage</h1>
+      	<p>Please click on the appropriate heading to read about that topoic</p>
       </div>
     );
   }

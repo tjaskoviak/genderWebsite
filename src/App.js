@@ -3,6 +3,8 @@ import logo from './logo.png';
 import './App.css';
 import Leaders from './Leaders.js';
 import BasicInfo from './BasicInfo.js';
+import CivilRightsHistory from './CivilRightsHistory.js';
+import LGBTHistory from './LGBTHistory.js';
 import { NavLink } from "react-router-dom";
 
 class App extends Component {
@@ -15,6 +17,8 @@ class App extends Component {
         </header>
         <div className="navbar">
           <NavLink to="/home" activeClassName="active"> Home </NavLink>
+          <NavLink to='/CivilRightsHistory' activeClassName="active"> Civil Rights History </NavLink>
+          <NavLink to='/LGBTHistory' activeClassName="active"> LGBT History </NavLink>
           <NavLink to='/leaders' activeClassName="active"> Leaders </NavLink>
         </div>
       </div>

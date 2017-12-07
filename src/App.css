@@ -114,11 +114,11 @@ a:hover {
 }
 
 h2 {
-  left: 20%;
+  margin-left: 20%;
 }
 
 h3 {
-  left: 20%;
+  margin-left: 20%;
 }
 
 NavLink {
@@ -126,7 +126,8 @@ NavLink {
 }
 
 iframe {
-  left: 5%;
+  margin-left: 10%;
+  width: 80%;
 }
 
 @keyframes App-logo-spin {
