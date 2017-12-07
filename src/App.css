@@ -42,7 +42,7 @@ p span {
 
 .Leaders-portrait {
   position: relative;
-  width: 200px;
+  width: 400px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -50,7 +50,7 @@ p span {
 .Leaders-image {
   border-radius: 10px;
   display: block;
-  width: 200px;
+  width: 400px;
   height: auto;
   margin-left: auto;
 }
@@ -76,7 +76,7 @@ p span {
 .Image-text {
   white-space: nowrap; 
   color: white;
-  font-size: .75em;
+  font-size: 1.5em;
   position: absolute;
   overflow: hidden;
   top: 50%;
