@@ -6,6 +6,7 @@ import Leaders from './Leaders';
 import BasicInfo from './BasicInfo';
 import CivilRightsHistory from './CivilRightsHistory';
 import LGBTHistory from './LGBTHistory.js';
+import LGBTLaws from './LGBTLaws.js';
 import { BrowserRouter, Route } from 'react-router-dom'
 import registerServiceWorker from './registerServiceWorker';
 
@@ -13,10 +14,11 @@ ReactDOM.render(
 	<BrowserRouter>
 		<div>
 			<Route component={App} />
-			<Route path="/home" component={BasicInfo} />
+			<Route exact path="/" component={BasicInfo} />
 			<Route path="/leaders" component={Leaders} />
 			<Route path="/CivilRightsHistory" component={CivilRightsHistory} />
 			<Route path="/LGBTHistory" component={LGBTHistory} />
+			<Route path="/LGBTLaws" component={LGBTLaws} />
 		</div>
 	</BrowserRouter>, 
 	document.getElementById('root'));

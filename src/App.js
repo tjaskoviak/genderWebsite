@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.png';
 import './App.css';
-import Leaders from './Leaders.js';
-import BasicInfo from './BasicInfo.js';
-import CivilRightsHistory from './CivilRightsHistory.js';
-import LGBTHistory from './LGBTHistory.js';
 import { NavLink } from "react-router-dom";
 
 class App extends Component {
@@ -16,10 +12,11 @@ class App extends Component {
           <h1 className="App-title">A Comparison of the Civil Rights Movement and the LGBT+ Movement</h1>
         </header>
         <div className="navbar">
-          <NavLink to="/home" activeClassName="active"> Home </NavLink>
+          <NavLink exact to="/" activeClassName="active"> Home </NavLink>
           <NavLink to='/CivilRightsHistory' activeClassName="active"> Civil Rights History </NavLink>
           <NavLink to='/LGBTHistory' activeClassName="active"> LGBT History </NavLink>
           <NavLink to='/leaders' activeClassName="active"> Leaders </NavLink>
+          <NavLink to='/LGBTLaws' activeClassName="active"> LGBT+ Laws </NavLink>
         </div>
       </div>
     );
@@ -28,9 +25,6 @@ class App extends Component {
   /*
   Things to include:
     About Us
-    Basic Info
-    Laws
-    Strategies
   */
 }
 

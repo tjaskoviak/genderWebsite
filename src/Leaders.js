@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import mlk from './mlk.jpg';
-import rosa from './rosaparks.jpg';
 import malcolm from './malcolmx.jpg';
 import ellen from './ellen.jpg';
 import harvey from './harvey.png';
@@ -81,7 +80,7 @@ class Leaders extends Component {
         <p className="Leaders-intro">
           <span>Harvey Milk</span> gave inspiring speeches to rally his followers and show the world what the gay and lesbian community wanted and deserved as citizens of the United States. Here is one speech demonstrating his ability to  give emotionally powerful  speeches: 
         </p>
-        <iframe width="100%" height="420" src="https://www.youtube.com/embed/X9vol-8HYEc" allowFullScreen="allowfullscreen">
+        <iframe title="Harvey Milk giving an emotional speech" width="100%" height="420" src="https://www.youtube.com/embed/X9vol-8HYEc" allowFullScreen="allowfullscreen">
         </iframe>
         <p className="Leaders-intro">
           <span>Not</span> only was he able to give powerful speeches, he was able to  perform very well in public debates. He strategically would cater his style to his audience. When debating in front of his supporters he would use humor to make his opponent look ridiculous. The laughter he received from his humor made it appear that he was winning the debates. When debating in front of people who opposed him and his ideas, he would be clever to try and confuse his opponent or make them contradict themselves. He strategically knew that using humor in a crowd of opponents would not go over well, even if he was actually being really funny. 
