@@ -26,7 +26,6 @@ class App extends Component {
     About Us
     Basic Info
     Laws
-    Leaders
     Strategies
   */
 }
