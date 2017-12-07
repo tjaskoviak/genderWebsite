@@ -5,6 +5,7 @@ import App from './App';
 import Leaders from './Leaders';
 import BasicInfo from './BasicInfo';
 import { BrowserRouter, Route } from 'react-router-dom'
+import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
 	<BrowserRouter>
@@ -15,3 +16,4 @@ ReactDOM.render(
 		</div>
 	</BrowserRouter>, 
 	document.getElementById('root'));
+registerServiceWorker();
