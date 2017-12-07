@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.png';
 import './App.css';
+import Leaders from './Leaders.js';
+import BasicInfo from './BasicInfo.js';
+import { NavLink } from "react-router-dom";
 
 class App extends Component {
   render() {
@@ -10,20 +13,22 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">A Comparison of the Civil Rights Movement and the LGBT+ Movement</h1>
         </header>
-        <p className="App-intro">
-          Info! Facts! Pictures!
-          Important things to include
-          <ul>
-          	<li>About Us</li>
-          	<li>Basic Info</li>
-          	<li>Laws</li>
-          	<li>Leaders</li>
-          	<li>Strategies</li>
-          </ul>
-        </p>
+        <div className="navbar">
+          <NavLink to="/home" activeClassName="active"> Home </NavLink>
+          <NavLink to='/leaders' activeClassName="active"> Leaders </NavLink>
+        </div>
       </div>
     );
   }
+
+  /*
+  Things to include:
+    About Us
+    Basic Info
+    Laws
+    Leaders
+    Strategies
+  */
 }
 
 export default App;
