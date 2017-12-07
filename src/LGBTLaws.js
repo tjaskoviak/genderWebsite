@@ -5,7 +5,7 @@ class LGBTLaws extends Component {
   render() {
     return (
       <div>
-        <h1>Laws of the LGBT+ Movement</h1>
+        <h1 className="Leaders-title">Laws of the LGBT+ Movement</h1>
         <p className="Leaders-intro">
           <span>1956</span>- Homosexual publications are not automatically obscene. Before this happened, this is how leaders of the Society for Human Rights were arrested because of their publication "Friendship and Freedom"
         </p>

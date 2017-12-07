@@ -7,7 +7,9 @@ class LGBTHistory extends Component {
   render() {
     return (
       <div>
-      	<h1>A Brief History of the LGBT Movement</h1>
+        <header className="Leaders-header">
+          <h1 className="Leaders-title">A Brief History of the LGBT Movement</h1>
+        </header>
       	<div className="Leaders-portrait"> 
           <img src={parade} className="Leaders-image" alt="NYC Pride Parade" />
           <div className="Overlay">

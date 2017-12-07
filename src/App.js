@@ -13,10 +13,11 @@ class App extends Component {
         </header>
         <div className="navbar">
           <NavLink exact to="/" activeClassName="active"> Home </NavLink>
+          <NavLink to='/leaders' activeClassName="active"> Leaders </NavLink>
           <NavLink to='/CivilRightsHistory' activeClassName="active"> Civil Rights History </NavLink>
           <NavLink to='/LGBTHistory' activeClassName="active"> LGBT History </NavLink>
-          <NavLink to='/leaders' activeClassName="active"> Leaders </NavLink>
           <NavLink to='/LGBTLaws' activeClassName="active"> LGBT+ Laws </NavLink>
+          <NavLink to='/Comparisons' activeClassName="active"> Major Comparisons </NavLink>
         </div>
       </div>
     );

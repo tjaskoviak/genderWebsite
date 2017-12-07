@@ -7,7 +7,7 @@ class CivilRightsHistory extends Component {
   render() {
     return (
       <div>
-      	<h1>A Brief History of the Civil Rights Movement</h1>
+      	<h1 className="Leaders-title">A Brief History of the Civil Rights Movement</h1>
       	<div className="Leaders-portrait"> 
           <img src={march} className="Leaders-image" alt="March on Washington for Jobs and Freedom" />
           <div className="Overlay">
