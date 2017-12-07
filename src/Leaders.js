@@ -14,29 +14,8 @@ class Leaders extends Component {
         <header className="Leaders-header">
           <h1 className="Leaders-title">The Leaders of Each Movement</h1>
         </header>
-        <div className="Leaders-portrait"> 
-          <img src={mlk} className="Leaders-image" alt="Martin Luthar King Jr" />
-          <div className="Overlay">
-              <div className="Image-text">Martin Luthar King Jr</div>
-          </div>
-        </div>
         <p className="Leaders-intro">
-          <span>Names</span> like Rosa Parks, Malcolm X, and Martin Luther King Jr. are all names that most people recognize and associate with the leaders of the civil rights movement in the 60’s.  These leaders are known for their acts of defiance against unjust laws and their powerful speeches that gained them a fallowing. They dedicated their lives to the movement and have earned a spot in history for doing so. Currently we have popular leaders that aim to progress the LGBTQ+ movement as well, but they are a little different from the leaders previously mentioned.
-        </p>
-        <div className="Leaders-portrait"> 
-          <img src={ellen} className="Leaders-image" alt="Ellen Degeneres" />
-          <div className="Overlay">
-              <div className="Image-text">Ellen Degeneres</div>
-          </div>
-        </div>
-        <p className="Leaders-intro">
-          <span>In</span> the LGBTQ+ there are leaders that have dedicated a majority of their time to the movement through leading organizations like the Gay Straight Alliance and Heritage of Pride. While these leaders have made strides for the movement by spreading awareness, they are less well known than the leaders of the Civil Rights movement. Instead the LGBTQ+ has pop culture leaders like Miley Cyrus, Lady Gaga, and Ellen Degeneres who use their platform as celebrities to spread awareness.
-        </p>
-        <p className="Leaders-intro">
-          <span>Miley</span> Cyrus and Lady Gaga both started out as only singers, but have since used their voice and their followers to spread awareness for the LGBTQ+. Miley Cyrus has come out as pansexual and Lady Gaga has come out as bisexual, both publicly putting themselves in the LGBTQ+ community, not just as its allies. On top of this, Miley Cyrus started the #instapride campaign with instagram to give transgender people a platform to raise awareness of their struggles. She also started the Happy Hippie foundation to rally young people to fight social injustices towards vulnerable groups like the transgender community. Lady Gaga has spoken about equality at many of concerts and also at the 2009 National Equality March on Washington DC. She also made public speeches opposing the “Don’t Ask, Don’t Tell” US policy.
-        </p>
-        <p className="Leaders-intro">
-          <span>It</span> seems that the current leaders who are only known for their support of a movement, like the LGBTQ+ movement, get less recognition than the leaders who establish themselves through another medium first and then use their platform to progress a movement. This phenomenon could be a result of newer generations being more focused on entertainment than current issues. With the fast paced media surrounding us today, someone making speeches may not be as captivating as it was 50 years ago.
+          <span>The LGBTQ+</span> community and African American community both went through and still go through extreme adversities that call for movements to be created in order to end oppression. With movements, comes leaders that must be able to overcome hardships and focus on ways to move their movement forward. This page aims to explain the leader’s hardships and strategies they have carried out to help end progression.
         </p>
         <h2>Hardships</h2>
         <p className="Leaders-intro">
@@ -96,6 +75,12 @@ class Leaders extends Component {
           <span>Dan Savage</span> started the “It Gets Better Project” to prevent suicide among LGBTQ+ youth. The project uses youtube as a platform to share over 650 videos of diverse groupings of LGBTQ+ people explaining how early life is not everything and as time goes on life will get better. He also began HUMP festivals, which are amatuer pornography showings, put on to celebrate the desires of all people. Most people watching the festival, start off extremely uncomfortable, only noting the differences between them and the actors on the screen, but eventually they begin to notice similarities including desire, vulnerability, and humor. The festival is definitely out there, but is a very interesting way of making people more comfortable with ideas they previously found unnatural. 
         </p>
         <h3>Ellen Degeneres</h3>
+        <div className="Leaders-portrait"> 
+          <img src={ellen} className="Leaders-image" alt="Ellen Degeneres" />
+          <div className="Overlay">
+              <div className="Image-text">Ellen Degeneres</div>
+          </div>
+        </div>
         <p className="Leaders-intro">
           <span>Ellen Degeneres</span> is another leader in the LGBTQ+ movement,  mostly known for her talk show Ellen. She is also largely recognized for coming out on her previous show and also in real life in the late 90’s. Ellen did not want to have a political agenda with her show revolving around a lesbian agenda, and instead wanted to only share love and acceptance. Instead she her shown was labeled as inappropriate for children and soon after was cancelled.
         </p>
