@@ -113,6 +113,14 @@ a:hover {
   text-align: left;
 }
 
+h2 {
+  left: 20%;
+}
+
+h3 {
+  left: 20%;
+}
+
 NavLink {
   margin-right: 10%;
 }
