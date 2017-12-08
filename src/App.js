@@ -18,6 +18,7 @@ class App extends Component {
           <NavLink to='/LGBTHistory' activeClassName="active"> LGBT History </NavLink>
           <NavLink to='/LGBTLaws' activeClassName="active"> LGBT+ Laws </NavLink>
           <NavLink to='/Comparisons' activeClassName="active"> Major Comparisons </NavLink>
+          <NavLink to='/References' activeClassName="active"> References </NavLink>
         </div>
       </div>
     );

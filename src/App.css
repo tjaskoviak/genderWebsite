@@ -98,7 +98,7 @@ p span {
 a {
   color: blue;
   text-decoration: none;
-  margin-left: 5%;
+  margin-left: 2%;
 }
 
 a:hover {
@@ -119,6 +119,11 @@ a:hover {
   width: auto;
   height: 150px;
   float: right;
+}
+
+.Reference {
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 h2 {
